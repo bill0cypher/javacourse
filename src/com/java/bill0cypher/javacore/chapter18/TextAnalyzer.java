@@ -5,10 +5,6 @@ import java.util.Map;
 import java.util.Objects;
 
 public class TextAnalyzer {
-    public static void main(String ...args) {
-        String strToCheck = "public static void main(String ...args){}";
-        System.out.println("Is the next string correct: " + strToCheck + " Result: " + isStringCorrect(strToCheck));
-    }
 
     public static boolean isStringCorrect(String string) {
         char[] strSymbols = string.toCharArray();
